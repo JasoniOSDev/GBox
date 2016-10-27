@@ -1,0 +1,14 @@
+//
+//  GoodInfoViewModel.m
+//  GBox
+//
+//  Created by jason on 2016/10/27.
+//  Copyright © 2016年 jason. All rights reserved.
+//
+
+#import "GoodInfoViewModel.h"
+
+@implementation GoodInfoViewModel
+
+
+@end

@@ -1,0 +1,18 @@
+PODS:
+  - IQKeyboardManager (4.0.6)
+  - JTCalendar (2.1.9)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - JTCalendar
+  - Masonry
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: c52debb1967799ae7addb98eab0cf328083a874f
+  JTCalendar: beb2f4c1b639bf6880f680b4858227acf83a049c
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 5c7b44a3ff950a7444436feccae46c9d9106e23d
+
+COCOAPODS: 1.1.0.beta.2

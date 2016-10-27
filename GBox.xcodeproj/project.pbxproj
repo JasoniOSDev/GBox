@@ -1,0 +1,962 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E72DE3F6078FDC6A0F7D904 /* Pods_GBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD29F46B4333F37143C67A75 /* Pods_GBox.framework */; };
+		960FA57E1DBCE9920022E2A4 /* HomeFunctionsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA57D1DBCE9920022E2A4 /* HomeFunctionsViewModel.m */; };
+		960FA5841DBCE9CF0022E2A4 /* GBCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA5831DBCE9CF0022E2A4 /* GBCollectionViewModel.m */; };
+		960FA5891DBCFF920022E2A4 /* HomeFunctionsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA5871DBCFF920022E2A4 /* HomeFunctionsCollectionViewCell.m */; };
+		960FA58A1DBCFF920022E2A4 /* HomeFunctionsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960FA5881DBCFF920022E2A4 /* HomeFunctionsCollectionViewCell.xib */; };
+		960FA58E1DBD04C70022E2A4 /* HomeFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA58D1DBD04C70022E2A4 /* HomeFunctionModel.m */; };
+		960FA5921DBDB3500022E2A4 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA5901DBDB3500022E2A4 /* HomeTableViewCell.m */; };
+		960FA5931DBDB3500022E2A4 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960FA5911DBDB3500022E2A4 /* HomeTableViewCell.xib */; };
+		960FA5981DBDC5C80022E2A4 /* GoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA5971DBDC5C80022E2A4 /* GoodModel.m */; };
+		960FA59C1DBDC5EC0022E2A4 /* OrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA59B1DBDC5EC0022E2A4 /* OrderModel.m */; };
+		960FA5A01DBDC8850022E2A4 /* CustomerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA59F1DBDC8850022E2A4 /* CustomerModel.m */; };
+		960FA5A31DBE36340022E2A4 /* GoodClassifyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA5A21DBE36340022E2A4 /* GoodClassifyModel.m */; };
+		960FA5A61DBE36950022E2A4 /* OrderGoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA5A51DBE36950022E2A4 /* OrderGoodModel.m */; };
+		960FA5AC1DBE58E50022E2A4 /* Operation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960FA5AB1DBE58E50022E2A4 /* Operation.storyboard */; };
+		960FA5AF1DBE67970022E2A4 /* Good.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960FA5AE1DBE67970022E2A4 /* Good.storyboard */; };
+		960FA5B21DBEFBA00022E2A4 /* GoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA5B11DBEFBA00022E2A4 /* GoodViewController.m */; };
+		960FA5B61DBEFBBC0022E2A4 /* GoodViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA5B51DBEFBBC0022E2A4 /* GoodViewModel.m */; };
+		960FA5B91DBF06330022E2A4 /* GoodSearchTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA5B81DBF06330022E2A4 /* GoodSearchTipViewController.m */; };
+		960FA5BC1DBF068A0022E2A4 /* GoodSearchTipViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA5BB1DBF068A0022E2A4 /* GoodSearchTipViewModel.m */; };
+		960FA5C41DBF34C90022E2A4 /* 兰亭粗黑 GBK.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 960FA5C31DBF34C90022E2A4 /* 兰亭粗黑 GBK.TTF */; };
+		960FA5C71DBF371C0022E2A4 /* GoodSearchTipClassifyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA5C61DBF371C0022E2A4 /* GoodSearchTipClassifyTableViewCell.m */; };
+		960FA5CD1DBF537E0022E2A4 /* GoodSearchHistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FA5CC1DBF537E0022E2A4 /* GoodSearchHistoryModel.m */; };
+		964874AC1DC1AF26005E0C97 /* GoodInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964874AB1DC1AF26005E0C97 /* GoodInfoViewController.m */; };
+		964874B21DC1C113005E0C97 /* GoodInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 964874B11DC1C113005E0C97 /* GoodInfoViewModel.m */; };
+		96AF98231DB870DA00595C85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF98221DB870DA00595C85 /* main.m */; };
+		96AF98261DB870DA00595C85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF98251DB870DA00595C85 /* AppDelegate.m */; };
+		96AF982C1DB870DA00595C85 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AF982A1DB870DA00595C85 /* Home.storyboard */; };
+		96AF982E1DB870DA00595C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96AF982D1DB870DA00595C85 /* Assets.xcassets */; };
+		96AF98311DB870DA00595C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AF982F1DB870DA00595C85 /* LaunchScreen.storyboard */; };
+		96AF98961DB8B2CB00595C85 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AF98801DB8731F00595C85 /* ReactiveCocoa.framework */; };
+		96AF98971DB8B2CB00595C85 /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96AF98801DB8731F00595C85 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		96AF989E1DB8B39A00595C85 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AF989C1DB8B39200595C85 /* Realm.framework */; };
+		96AF989F1DB8B39A00595C85 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96AF989C1DB8B39200595C85 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		96AF98A31DB8B71400595C85 /* GBViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF98A21DB8B71400595C85 /* GBViewModel.m */; };
+		96AF98A81DB8D30200595C85 /* GBTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF98A71DB8D30200595C85 /* GBTableViewModel.m */; };
+		96AF98AC1DB8D49900595C85 /* GBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF98AB1DB8D49900595C85 /* GBTableViewController.m */; };
+		96AF98AF1DB8D4D200595C85 /* GBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF98AE1DB8D4D200595C85 /* GBViewController.m */; };
+		96AF98B51DB8E82F00595C85 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF98B41DB8E82F00595C85 /* HomeViewController.m */; };
+		96AF98B91DB8E88900595C85 /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF98B81DB8E88900595C85 /* HomeViewModel.m */; };
+		96AF98BD1DB8E8DE00595C85 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF98BC1DB8E8DE00595C85 /* LoginViewModel.m */; };
+		96AF98C01DB8E90600595C85 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF98BF1DB8E90600595C85 /* LoginViewController.m */; };
+		96AF98C21DB8E91600595C85 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AF98C11DB8E91600595C85 /* Login.storyboard */; };
+		96AF98C41DB8E9ED00595C85 /* 方正粗圆_GBK.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96AF98C31DB8E9ED00595C85 /* 方正粗圆_GBK.ttf */; };
+		96AF98EA1DBA0D5200595C85 /* GBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF98E91DBA0D5200595C85 /* GBButton.m */; };
+		96AF98ED1DBA0E7B00595C85 /* LoginVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF98EC1DBA0E7B00595C85 /* LoginVerifyViewController.m */; };
+		96C2D5E01DBBC1DC00F1F1DE /* LoginVerifyViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C2D5DF1DBBC1DC00F1F1DE /* LoginVerifyViewModel.m */; };
+		96C2D5E61DBC5A3800F1F1DE /* UserGod.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C2D5E51DBC5A3800F1F1DE /* UserGod.m */; };
+		96C2D5EB1DBC928C00F1F1DE /* GBUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C2D5EA1DBC928C00F1F1DE /* GBUserDefault.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96AF987B1DB8731F00595C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96AF98741DB8731F00595C85 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D04725EA19E49ED7006002AA;
+			remoteInfo = "ReactiveCocoa-Mac";
+		};
+		96AF987D1DB8731F00595C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96AF98741DB8731F00595C85 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D04725F519E49ED7006002AA;
+			remoteInfo = "ReactiveCocoa-MacTests";
+		};
+		96AF987F1DB8731F00595C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96AF98741DB8731F00595C85 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D047260C19E49F82006002AA;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+		96AF98811DB8731F00595C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96AF98741DB8731F00595C85 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D047261619E49F82006002AA;
+			remoteInfo = "ReactiveCocoa-iOSTests";
+		};
+		96AF98981DB8B2CB00595C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96AF98741DB8731F00595C85 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D047260B19E49F82006002AA;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96AF989A1DB8B2CB00595C85 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				96AF989F1DB8B39A00595C85 /* Realm.framework in Embed Frameworks */,
+				96AF98971DB8B2CB00595C85 /* ReactiveCocoa.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		85F1266FBD99CC6C8E84CBA8 /* Pods-GBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-GBox/Pods-GBox.release.xcconfig"; sourceTree = "<group>"; };
+		8B6D3D47532F9F54635BB8C4 /* Pods-GBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GBox/Pods-GBox.debug.xcconfig"; sourceTree = "<group>"; };
+		960FA57C1DBCE9920022E2A4 /* HomeFunctionsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeFunctionsViewModel.h; path = Home/HomeFunctionsViewModel.h; sourceTree = "<group>"; };
+		960FA57D1DBCE9920022E2A4 /* HomeFunctionsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeFunctionsViewModel.m; path = Home/HomeFunctionsViewModel.m; sourceTree = "<group>"; };
+		960FA5821DBCE9CF0022E2A4 /* GBCollectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBCollectionViewModel.h; path = Base/GBCollectionViewModel.h; sourceTree = "<group>"; };
+		960FA5831DBCE9CF0022E2A4 /* GBCollectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBCollectionViewModel.m; path = Base/GBCollectionViewModel.m; sourceTree = "<group>"; };
+		960FA5861DBCFF920022E2A4 /* HomeFunctionsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeFunctionsCollectionViewCell.h; path = Home/HomeFunctionsCollectionViewCell.h; sourceTree = "<group>"; };
+		960FA5871DBCFF920022E2A4 /* HomeFunctionsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeFunctionsCollectionViewCell.m; path = Home/HomeFunctionsCollectionViewCell.m; sourceTree = "<group>"; };
+		960FA5881DBCFF920022E2A4 /* HomeFunctionsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeFunctionsCollectionViewCell.xib; path = Home/HomeFunctionsCollectionViewCell.xib; sourceTree = "<group>"; };
+		960FA58C1DBD04C70022E2A4 /* HomeFunctionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeFunctionModel.h; path = Home/HomeFunctionModel.h; sourceTree = "<group>"; };
+		960FA58D1DBD04C70022E2A4 /* HomeFunctionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeFunctionModel.m; path = Home/HomeFunctionModel.m; sourceTree = "<group>"; };
+		960FA58F1DBDB3500022E2A4 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeTableViewCell.h; path = Home/HomeTableViewCell.h; sourceTree = "<group>"; };
+		960FA5901DBDB3500022E2A4 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeTableViewCell.m; path = Home/HomeTableViewCell.m; sourceTree = "<group>"; };
+		960FA5911DBDB3500022E2A4 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeTableViewCell.xib; path = Home/HomeTableViewCell.xib; sourceTree = "<group>"; };
+		960FA5941DBDC2CE0022E2A4 /* 兰亭细黑 GBK.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "兰亭细黑 GBK.TTF"; sourceTree = "<group>"; };
+		960FA5961DBDC5C80022E2A4 /* GoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoodModel.h; path = Good/GoodModel.h; sourceTree = "<group>"; };
+		960FA5971DBDC5C80022E2A4 /* GoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoodModel.m; path = Good/GoodModel.m; sourceTree = "<group>"; };
+		960FA59A1DBDC5EC0022E2A4 /* OrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderModel.h; path = Order/OrderModel.h; sourceTree = "<group>"; };
+		960FA59B1DBDC5EC0022E2A4 /* OrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderModel.m; path = Order/OrderModel.m; sourceTree = "<group>"; };
+		960FA59E1DBDC8850022E2A4 /* CustomerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomerModel.h; path = Customer/CustomerModel.h; sourceTree = "<group>"; };
+		960FA59F1DBDC8850022E2A4 /* CustomerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomerModel.m; path = Customer/CustomerModel.m; sourceTree = "<group>"; };
+		960FA5A11DBE36340022E2A4 /* GoodClassifyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoodClassifyModel.h; path = Good/GoodClassifyModel.h; sourceTree = "<group>"; };
+		960FA5A21DBE36340022E2A4 /* GoodClassifyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoodClassifyModel.m; path = Good/GoodClassifyModel.m; sourceTree = "<group>"; };
+		960FA5A41DBE36950022E2A4 /* OrderGoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderGoodModel.h; path = Order/OrderGoodModel.h; sourceTree = "<group>"; };
+		960FA5A51DBE36950022E2A4 /* OrderGoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderGoodModel.m; path = Order/OrderGoodModel.m; sourceTree = "<group>"; };
+		960FA5AB1DBE58E50022E2A4 /* Operation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Operation.storyboard; sourceTree = "<group>"; };
+		960FA5AE1DBE67970022E2A4 /* Good.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Good.storyboard; sourceTree = "<group>"; };
+		960FA5B01DBEFBA00022E2A4 /* GoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoodViewController.h; path = Good/GoodViewController.h; sourceTree = "<group>"; };
+		960FA5B11DBEFBA00022E2A4 /* GoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoodViewController.m; path = Good/GoodViewController.m; sourceTree = "<group>"; };
+		960FA5B41DBEFBBC0022E2A4 /* GoodViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoodViewModel.h; path = Good/GoodViewModel.h; sourceTree = "<group>"; };
+		960FA5B51DBEFBBC0022E2A4 /* GoodViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoodViewModel.m; path = Good/GoodViewModel.m; sourceTree = "<group>"; };
+		960FA5B71DBF06330022E2A4 /* GoodSearchTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoodSearchTipViewController.h; path = Good/GoodSearchTipViewController.h; sourceTree = "<group>"; };
+		960FA5B81DBF06330022E2A4 /* GoodSearchTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoodSearchTipViewController.m; path = Good/GoodSearchTipViewController.m; sourceTree = "<group>"; };
+		960FA5BA1DBF068A0022E2A4 /* GoodSearchTipViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoodSearchTipViewModel.h; path = Good/GoodSearchTipViewModel.h; sourceTree = "<group>"; };
+		960FA5BB1DBF068A0022E2A4 /* GoodSearchTipViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoodSearchTipViewModel.m; path = Good/GoodSearchTipViewModel.m; sourceTree = "<group>"; };
+		960FA5C31DBF34C90022E2A4 /* 兰亭粗黑 GBK.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "兰亭粗黑 GBK.TTF"; sourceTree = "<group>"; };
+		960FA5C51DBF371C0022E2A4 /* GoodSearchTipClassifyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoodSearchTipClassifyTableViewCell.h; path = Good/GoodSearchTipClassifyTableViewCell.h; sourceTree = "<group>"; };
+		960FA5C61DBF371C0022E2A4 /* GoodSearchTipClassifyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoodSearchTipClassifyTableViewCell.m; path = Good/GoodSearchTipClassifyTableViewCell.m; sourceTree = "<group>"; };
+		960FA5CB1DBF537E0022E2A4 /* GoodSearchHistoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoodSearchHistoryModel.h; path = Good/GoodSearchHistoryModel.h; sourceTree = "<group>"; };
+		960FA5CC1DBF537E0022E2A4 /* GoodSearchHistoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoodSearchHistoryModel.m; path = Good/GoodSearchHistoryModel.m; sourceTree = "<group>"; };
+		964874AA1DC1AF26005E0C97 /* GoodInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoodInfoViewController.h; path = Good/GoodInfoViewController.h; sourceTree = "<group>"; };
+		964874AB1DC1AF26005E0C97 /* GoodInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoodInfoViewController.m; path = Good/GoodInfoViewController.m; sourceTree = "<group>"; };
+		964874B01DC1C113005E0C97 /* GoodInfoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoodInfoViewModel.h; path = Good/GoodInfoViewModel.h; sourceTree = "<group>"; };
+		964874B11DC1C113005E0C97 /* GoodInfoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoodInfoViewModel.m; path = Good/GoodInfoViewModel.m; sourceTree = "<group>"; };
+		96AF981E1DB870DA00595C85 /* GBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96AF98221DB870DA00595C85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96AF98241DB870DA00595C85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GBox/AppDelegate.h; sourceTree = "<group>"; };
+		96AF98251DB870DA00595C85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GBox/AppDelegate.m; sourceTree = "<group>"; };
+		96AF982B1DB870DA00595C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		96AF982D1DB870DA00595C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96AF98301DB870DA00595C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96AF98321DB870DA00595C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96AF98741DB8731F00595C85 /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = Frameworks/ReactiveCocoa/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
+		96AF989C1DB8B39200595C85 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Frameworks/Realm.framework; sourceTree = "<group>"; };
+		96AF98A11DB8B71400595C85 /* GBViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBViewModel.h; path = Base/GBViewModel.h; sourceTree = "<group>"; };
+		96AF98A21DB8B71400595C85 /* GBViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBViewModel.m; path = Base/GBViewModel.m; sourceTree = "<group>"; };
+		96AF98A41DB8D29E00595C85 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		96AF98A61DB8D30200595C85 /* GBTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBTableViewModel.h; path = Base/GBTableViewModel.h; sourceTree = "<group>"; };
+		96AF98A71DB8D30200595C85 /* GBTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBTableViewModel.m; path = Base/GBTableViewModel.m; sourceTree = "<group>"; };
+		96AF98AA1DB8D49900595C85 /* GBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBTableViewController.h; path = Base/GBTableViewController.h; sourceTree = "<group>"; };
+		96AF98AB1DB8D49900595C85 /* GBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBTableViewController.m; path = Base/GBTableViewController.m; sourceTree = "<group>"; };
+		96AF98AD1DB8D4D200595C85 /* GBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBViewController.h; path = Base/GBViewController.h; sourceTree = "<group>"; };
+		96AF98AE1DB8D4D200595C85 /* GBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBViewController.m; path = Base/GBViewController.m; sourceTree = "<group>"; };
+		96AF98B31DB8E82F00595C85 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = HOme/HomeViewController.h; sourceTree = "<group>"; };
+		96AF98B41DB8E82F00595C85 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = HOme/HomeViewController.m; sourceTree = "<group>"; };
+		96AF98B71DB8E88900595C85 /* HomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewModel.h; path = Home/HomeViewModel.h; sourceTree = "<group>"; };
+		96AF98B81DB8E88900595C85 /* HomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewModel.m; path = Home/HomeViewModel.m; sourceTree = "<group>"; };
+		96AF98BB1DB8E8DE00595C85 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewModel.h; path = Login/LoginViewModel.h; sourceTree = "<group>"; };
+		96AF98BC1DB8E8DE00595C85 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewModel.m; path = Login/LoginViewModel.m; sourceTree = "<group>"; };
+		96AF98BE1DB8E90600595C85 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Login/LoginViewController.h; sourceTree = "<group>"; };
+		96AF98BF1DB8E90600595C85 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Login/LoginViewController.m; sourceTree = "<group>"; };
+		96AF98C11DB8E91600595C85 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Login/Login.storyboard; sourceTree = "<group>"; };
+		96AF98C31DB8E9ED00595C85 /* 方正粗圆_GBK.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "方正粗圆_GBK.ttf"; sourceTree = "<group>"; };
+		96AF98E81DBA0D5200595C85 /* GBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBButton.h; path = Extension/GBButton.h; sourceTree = "<group>"; };
+		96AF98E91DBA0D5200595C85 /* GBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBButton.m; path = Extension/GBButton.m; sourceTree = "<group>"; };
+		96AF98EB1DBA0E7B00595C85 /* LoginVerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginVerifyViewController.h; path = Login/LoginVerifyViewController.h; sourceTree = "<group>"; };
+		96AF98EC1DBA0E7B00595C85 /* LoginVerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginVerifyViewController.m; path = Login/LoginVerifyViewController.m; sourceTree = "<group>"; };
+		96C2D5DE1DBBC1DC00F1F1DE /* LoginVerifyViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginVerifyViewModel.h; path = Login/LoginVerifyViewModel.h; sourceTree = "<group>"; };
+		96C2D5DF1DBBC1DC00F1F1DE /* LoginVerifyViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginVerifyViewModel.m; path = Login/LoginVerifyViewModel.m; sourceTree = "<group>"; };
+		96C2D5E41DBC5A3800F1F1DE /* UserGod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserGod.h; path = Login/UserGod.h; sourceTree = "<group>"; };
+		96C2D5E51DBC5A3800F1F1DE /* UserGod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserGod.m; path = Login/UserGod.m; sourceTree = "<group>"; };
+		96C2D5E91DBC928C00F1F1DE /* GBUserDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBUserDefault.h; path = Help/GBUserDefault.h; sourceTree = "<group>"; };
+		96C2D5EA1DBC928C00F1F1DE /* GBUserDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBUserDefault.m; path = Help/GBUserDefault.m; sourceTree = "<group>"; };
+		CD29F46B4333F37143C67A75 /* Pods_GBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96AF981B1DB870D900595C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AF989E1DB8B39A00595C85 /* Realm.framework in Frameworks */,
+				3E72DE3F6078FDC6A0F7D904 /* Pods_GBox.framework in Frameworks */,
+				96AF98961DB8B2CB00595C85 /* ReactiveCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03242D11BA2B00BEDFCCFE5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B6D3D47532F9F54635BB8C4 /* Pods-GBox.debug.xcconfig */,
+				85F1266FBD99CC6C8E84CBA8 /* Pods-GBox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		960FA5851DBCFF520022E2A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				960FA5861DBCFF920022E2A4 /* HomeFunctionsCollectionViewCell.h */,
+				960FA5871DBCFF920022E2A4 /* HomeFunctionsCollectionViewCell.m */,
+				960FA5881DBCFF920022E2A4 /* HomeFunctionsCollectionViewCell.xib */,
+				960FA58F1DBDB3500022E2A4 /* HomeTableViewCell.h */,
+				960FA5901DBDB3500022E2A4 /* HomeTableViewCell.m */,
+				960FA5911DBDB3500022E2A4 /* HomeTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		960FA58B1DBD04AF0022E2A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				960FA58C1DBD04C70022E2A4 /* HomeFunctionModel.h */,
+				960FA58D1DBD04C70022E2A4 /* HomeFunctionModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		960FA5951DBDC5B20022E2A4 /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				960FA5BD1DBF1A300022E2A4 /* View */,
+				960FA5B31DBEFBA40022E2A4 /* ViewModel */,
+				960FA5AD1DBE678A0022E2A4 /* Controller */,
+				960FA5A81DBE58730022E2A4 /* Model */,
+			);
+			name = Good;
+			sourceTree = "<group>";
+		};
+		960FA5991DBDC5DF0022E2A4 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				960FA5A91DBE587B0022E2A4 /* Model */,
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		960FA59D1DBDC8720022E2A4 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				960FA5A71DBE58690022E2A4 /* Model */,
+			);
+			name = Customer;
+			sourceTree = "<group>";
+		};
+		960FA5A71DBE58690022E2A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				960FA59E1DBDC8850022E2A4 /* CustomerModel.h */,
+				960FA59F1DBDC8850022E2A4 /* CustomerModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		960FA5A81DBE58730022E2A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				960FA5961DBDC5C80022E2A4 /* GoodModel.h */,
+				960FA5971DBDC5C80022E2A4 /* GoodModel.m */,
+				960FA5A11DBE36340022E2A4 /* GoodClassifyModel.h */,
+				960FA5A21DBE36340022E2A4 /* GoodClassifyModel.m */,
+				960FA5CB1DBF537E0022E2A4 /* GoodSearchHistoryModel.h */,
+				960FA5CC1DBF537E0022E2A4 /* GoodSearchHistoryModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		960FA5A91DBE587B0022E2A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				960FA59A1DBDC5EC0022E2A4 /* OrderModel.h */,
+				960FA59B1DBDC5EC0022E2A4 /* OrderModel.m */,
+				960FA5A41DBE36950022E2A4 /* OrderGoodModel.h */,
+				960FA5A51DBE36950022E2A4 /* OrderGoodModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		960FA5AA1DBE58CB0022E2A4 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				960FA5AB1DBE58E50022E2A4 /* Operation.storyboard */,
+			);
+			name = Operation;
+			sourceTree = "<group>";
+		};
+		960FA5AD1DBE678A0022E2A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				960FA5AE1DBE67970022E2A4 /* Good.storyboard */,
+				960FA5B01DBEFBA00022E2A4 /* GoodViewController.h */,
+				960FA5B11DBEFBA00022E2A4 /* GoodViewController.m */,
+				960FA5B71DBF06330022E2A4 /* GoodSearchTipViewController.h */,
+				960FA5B81DBF06330022E2A4 /* GoodSearchTipViewController.m */,
+				964874AA1DC1AF26005E0C97 /* GoodInfoViewController.h */,
+				964874AB1DC1AF26005E0C97 /* GoodInfoViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		960FA5B31DBEFBA40022E2A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				960FA5B41DBEFBBC0022E2A4 /* GoodViewModel.h */,
+				960FA5B51DBEFBBC0022E2A4 /* GoodViewModel.m */,
+				960FA5BA1DBF068A0022E2A4 /* GoodSearchTipViewModel.h */,
+				960FA5BB1DBF068A0022E2A4 /* GoodSearchTipViewModel.m */,
+				964874B01DC1C113005E0C97 /* GoodInfoViewModel.h */,
+				964874B11DC1C113005E0C97 /* GoodInfoViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		960FA5BD1DBF1A300022E2A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				960FA5C51DBF371C0022E2A4 /* GoodSearchTipClassifyTableViewCell.h */,
+				960FA5C61DBF371C0022E2A4 /* GoodSearchTipClassifyTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		96AF98151DB870D900595C85 = {
+			isa = PBXGroup;
+			children = (
+				96AF98201DB870DA00595C85 /* GBox */,
+				96AF98241DB870DA00595C85 /* AppDelegate.h */,
+				96AF98251DB870DA00595C85 /* AppDelegate.m */,
+				96AF981F1DB870DA00595C85 /* Products */,
+				03242D11BA2B00BEDFCCFE5B /* Pods */,
+				FC8A3AB5DDA2B28AF9C56FFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96AF981F1DB870DA00595C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96AF981E1DB870DA00595C85 /* GBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96AF98201DB870DA00595C85 /* GBox */ = {
+			isa = PBXGroup;
+			children = (
+				960FA5AA1DBE58CB0022E2A4 /* Operation */,
+				960FA59D1DBDC8720022E2A4 /* Customer */,
+				960FA5951DBDC5B20022E2A4 /* Good */,
+				960FA5991DBDC5DF0022E2A4 /* Order */,
+				96AF98BA1DB8E8CC00595C85 /* Login */,
+				96AF98B61DB8E83400595C85 /* Home */,
+				96AF98A01DB8B6E900595C85 /* Base */,
+				96C2D5DA1DBB127300F1F1DE /* Help */,
+				96AF98E41DBA0D1600595C85 /* Extension */,
+				96AF98C51DB8E9F200595C85 /* Resource */,
+				96AF98211DB870DA00595C85 /* Supporting Files */,
+			);
+			path = GBox;
+			sourceTree = "<group>";
+		};
+		96AF98211DB870DA00595C85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96AF98221DB870DA00595C85 /* main.m */,
+				96AF98A41DB8D29E00595C85 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96AF98751DB8731F00595C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96AF987C1DB8731F00595C85 /* ReactiveCocoa.framework */,
+				96AF987E1DB8731F00595C85 /* ReactiveCocoa-MacTests.xctest */,
+				96AF98801DB8731F00595C85 /* ReactiveCocoa.framework */,
+				96AF98821DB8731F00595C85 /* ReactiveCocoa-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96AF98A01DB8B6E900595C85 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				96AF98A91DB8D47E00595C85 /* ViewController */,
+				96AF98A51DB8D2E700595C85 /* ViewModel */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		96AF98A51DB8D2E700595C85 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				96AF98A11DB8B71400595C85 /* GBViewModel.h */,
+				96AF98A21DB8B71400595C85 /* GBViewModel.m */,
+				96AF98A61DB8D30200595C85 /* GBTableViewModel.h */,
+				96AF98A71DB8D30200595C85 /* GBTableViewModel.m */,
+				960FA5821DBCE9CF0022E2A4 /* GBCollectionViewModel.h */,
+				960FA5831DBCE9CF0022E2A4 /* GBCollectionViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		96AF98A91DB8D47E00595C85 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				96AF98AA1DB8D49900595C85 /* GBTableViewController.h */,
+				96AF98AB1DB8D49900595C85 /* GBTableViewController.m */,
+				96AF98AD1DB8D4D200595C85 /* GBViewController.h */,
+				96AF98AE1DB8D4D200595C85 /* GBViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		96AF98B61DB8E83400595C85 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				960FA58B1DBD04AF0022E2A4 /* Model */,
+				960FA5851DBCFF520022E2A4 /* View */,
+				96C2D5E81DBC732400F1F1DE /* ViewController */,
+				96C2D5E71DBC731700F1F1DE /* ViewModel */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		96AF98BA1DB8E8CC00595C85 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				96C2D5E31DBC59A800F1F1DE /* Model */,
+				96C2D5E11DBBC1E200F1F1DE /* ViewModel */,
+				96C2D5E21DBBC1EE00F1F1DE /* Controller */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		96AF98C51DB8E9F200595C85 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				96AF982D1DB870DA00595C85 /* Assets.xcassets */,
+				96AF982F1DB870DA00595C85 /* LaunchScreen.storyboard */,
+				96AF98321DB870DA00595C85 /* Info.plist */,
+				960FA5C31DBF34C90022E2A4 /* 兰亭粗黑 GBK.TTF */,
+				960FA5941DBDC2CE0022E2A4 /* 兰亭细黑 GBK.TTF */,
+				96AF98C31DB8E9ED00595C85 /* 方正粗圆_GBK.ttf */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		96AF98E41DBA0D1600595C85 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				96AF98E81DBA0D5200595C85 /* GBButton.h */,
+				96AF98E91DBA0D5200595C85 /* GBButton.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		96C2D5DA1DBB127300F1F1DE /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				96C2D5E91DBC928C00F1F1DE /* GBUserDefault.h */,
+				96C2D5EA1DBC928C00F1F1DE /* GBUserDefault.m */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		96C2D5E11DBBC1E200F1F1DE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				96AF98BB1DB8E8DE00595C85 /* LoginViewModel.h */,
+				96AF98BC1DB8E8DE00595C85 /* LoginViewModel.m */,
+				96C2D5DE1DBBC1DC00F1F1DE /* LoginVerifyViewModel.h */,
+				96C2D5DF1DBBC1DC00F1F1DE /* LoginVerifyViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		96C2D5E21DBBC1EE00F1F1DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96AF98BE1DB8E90600595C85 /* LoginViewController.h */,
+				96AF98BF1DB8E90600595C85 /* LoginViewController.m */,
+				96AF98EB1DBA0E7B00595C85 /* LoginVerifyViewController.h */,
+				96AF98EC1DBA0E7B00595C85 /* LoginVerifyViewController.m */,
+				96AF98C11DB8E91600595C85 /* Login.storyboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		96C2D5E31DBC59A800F1F1DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96C2D5E41DBC5A3800F1F1DE /* UserGod.h */,
+				96C2D5E51DBC5A3800F1F1DE /* UserGod.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		96C2D5E71DBC731700F1F1DE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				96AF98B71DB8E88900595C85 /* HomeViewModel.h */,
+				96AF98B81DB8E88900595C85 /* HomeViewModel.m */,
+				960FA57C1DBCE9920022E2A4 /* HomeFunctionsViewModel.h */,
+				960FA57D1DBCE9920022E2A4 /* HomeFunctionsViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		96C2D5E81DBC732400F1F1DE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				96AF98B31DB8E82F00595C85 /* HomeViewController.h */,
+				96AF98B41DB8E82F00595C85 /* HomeViewController.m */,
+				96AF982A1DB870DA00595C85 /* Home.storyboard */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		FC8A3AB5DDA2B28AF9C56FFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96AF989C1DB8B39200595C85 /* Realm.framework */,
+				96AF98741DB8731F00595C85 /* ReactiveCocoa.xcodeproj */,
+				CD29F46B4333F37143C67A75 /* Pods_GBox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96AF981D1DB870D900595C85 /* GBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96AF98351DB870DA00595C85 /* Build configuration list for PBXNativeTarget "GBox" */;
+			buildPhases = (
+				6D3764943D52E3ADE94902A4 /* [CP] Check Pods Manifest.lock */,
+				96AF981A1DB870D900595C85 /* Sources */,
+				96AF981B1DB870D900595C85 /* Frameworks */,
+				96AF981C1DB870D900595C85 /* Resources */,
+				EB7436D227D9C40AF79D6F38 /* [CP] Embed Pods Frameworks */,
+				BBE3962742EF98380037D904 /* [CP] Copy Pods Resources */,
+				96AF989A1DB8B2CB00595C85 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96AF98991DB8B2CB00595C85 /* PBXTargetDependency */,
+			);
+			name = GBox;
+			productName = GBox;
+			productReference = 96AF981E1DB870DA00595C85 /* GBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96AF98161DB870D900595C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = jason;
+				TargetAttributes = {
+					96AF981D1DB870D900595C85 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PG83M8BXTM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 96AF98191DB870D900595C85 /* Build configuration list for PBXProject "GBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96AF98151DB870D900595C85;
+			productRefGroup = 96AF981F1DB870DA00595C85 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 96AF98751DB8731F00595C85 /* Products */;
+					ProjectRef = 96AF98741DB8731F00595C85 /* ReactiveCocoa.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				96AF981D1DB870D900595C85 /* GBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		96AF987C1DB8731F00595C85 /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = 96AF987B1DB8731F00595C85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		96AF987E1DB8731F00595C85 /* ReactiveCocoa-MacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-MacTests.xctest";
+			remoteRef = 96AF987D1DB8731F00595C85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		96AF98801DB8731F00595C85 /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = 96AF987F1DB8731F00595C85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		96AF98821DB8731F00595C85 /* ReactiveCocoa-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-iOSTests.xctest";
+			remoteRef = 96AF98811DB8731F00595C85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96AF981C1DB870D900595C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AF98311DB870DA00595C85 /* LaunchScreen.storyboard in Resources */,
+				960FA5AC1DBE58E50022E2A4 /* Operation.storyboard in Resources */,
+				960FA5931DBDB3500022E2A4 /* HomeTableViewCell.xib in Resources */,
+				960FA5C41DBF34C90022E2A4 /* 兰亭粗黑 GBK.TTF in Resources */,
+				96AF982E1DB870DA00595C85 /* Assets.xcassets in Resources */,
+				96AF982C1DB870DA00595C85 /* Home.storyboard in Resources */,
+				960FA58A1DBCFF920022E2A4 /* HomeFunctionsCollectionViewCell.xib in Resources */,
+				96AF98C41DB8E9ED00595C85 /* 方正粗圆_GBK.ttf in Resources */,
+				960FA5AF1DBE67970022E2A4 /* Good.storyboard in Resources */,
+				96AF98C21DB8E91600595C85 /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D3764943D52E3ADE94902A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE3962742EF98380037D904 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GBox/Pods-GBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB7436D227D9C40AF79D6F38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GBox/Pods-GBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96AF981A1DB870D900595C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AF98AC1DB8D49900595C85 /* GBTableViewController.m in Sources */,
+				960FA5A61DBE36950022E2A4 /* OrderGoodModel.m in Sources */,
+				960FA58E1DBD04C70022E2A4 /* HomeFunctionModel.m in Sources */,
+				960FA5921DBDB3500022E2A4 /* HomeTableViewCell.m in Sources */,
+				960FA5841DBCE9CF0022E2A4 /* GBCollectionViewModel.m in Sources */,
+				960FA59C1DBDC5EC0022E2A4 /* OrderModel.m in Sources */,
+				960FA57E1DBCE9920022E2A4 /* HomeFunctionsViewModel.m in Sources */,
+				964874AC1DC1AF26005E0C97 /* GoodInfoViewController.m in Sources */,
+				96AF98A31DB8B71400595C85 /* GBViewModel.m in Sources */,
+				96C2D5EB1DBC928C00F1F1DE /* GBUserDefault.m in Sources */,
+				96AF98261DB870DA00595C85 /* AppDelegate.m in Sources */,
+				960FA5BC1DBF068A0022E2A4 /* GoodSearchTipViewModel.m in Sources */,
+				96C2D5E01DBBC1DC00F1F1DE /* LoginVerifyViewModel.m in Sources */,
+				960FA5B91DBF06330022E2A4 /* GoodSearchTipViewController.m in Sources */,
+				96AF98231DB870DA00595C85 /* main.m in Sources */,
+				960FA5A01DBDC8850022E2A4 /* CustomerModel.m in Sources */,
+				96AF98C01DB8E90600595C85 /* LoginViewController.m in Sources */,
+				96AF98AF1DB8D4D200595C85 /* GBViewController.m in Sources */,
+				96C2D5E61DBC5A3800F1F1DE /* UserGod.m in Sources */,
+				964874B21DC1C113005E0C97 /* GoodInfoViewModel.m in Sources */,
+				96AF98A81DB8D30200595C85 /* GBTableViewModel.m in Sources */,
+				96AF98ED1DBA0E7B00595C85 /* LoginVerifyViewController.m in Sources */,
+				96AF98B51DB8E82F00595C85 /* HomeViewController.m in Sources */,
+				960FA5CD1DBF537E0022E2A4 /* GoodSearchHistoryModel.m in Sources */,
+				96AF98B91DB8E88900595C85 /* HomeViewModel.m in Sources */,
+				960FA5981DBDC5C80022E2A4 /* GoodModel.m in Sources */,
+				960FA5B61DBEFBBC0022E2A4 /* GoodViewModel.m in Sources */,
+				960FA5891DBCFF920022E2A4 /* HomeFunctionsCollectionViewCell.m in Sources */,
+				960FA5C71DBF371C0022E2A4 /* GoodSearchTipClassifyTableViewCell.m in Sources */,
+				96AF98EA1DBA0D5200595C85 /* GBButton.m in Sources */,
+				960FA5B21DBEFBA00022E2A4 /* GoodViewController.m in Sources */,
+				960FA5A31DBE36340022E2A4 /* GoodClassifyModel.m in Sources */,
+				96AF98BD1DB8E8DE00595C85 /* LoginViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96AF98991DB8B2CB00595C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ReactiveCocoa-iOS";
+			targetProxy = 96AF98981DB8B2CB00595C85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96AF982A1DB870DA00595C85 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96AF982B1DB870DA00595C85 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		96AF982F1DB870DA00595C85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96AF98301DB870DA00595C85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96AF98331DB870DA00595C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96AF98341DB870DA00595C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96AF98361DB870DA00595C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6D3D47532F9F54635BB8C4 /* Pods-GBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PG83M8BXTM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PREFIX_HEADER = GBox/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\" $(inherited)";
+				INFOPLIST_FILE = GBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"JTCalendar\"",
+					"-framework",
+					"\"Masonry\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.GBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96AF98371DB870DA00595C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F1266FBD99CC6C8E84CBA8 /* Pods-GBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PG83M8BXTM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PREFIX_HEADER = GBox/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\" $(inherited)";
+				INFOPLIST_FILE = GBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"JTCalendar\"",
+					"-framework",
+					"\"Masonry\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jason.GBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96AF98191DB870D900595C85 /* Build configuration list for PBXProject "GBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96AF98331DB870DA00595C85 /* Debug */,
+				96AF98341DB870DA00595C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96AF98351DB870DA00595C85 /* Build configuration list for PBXNativeTarget "GBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96AF98361DB870DA00595C85 /* Debug */,
+				96AF98371DB870DA00595C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96AF98161DB870D900595C85 /* Project object */;
+}
